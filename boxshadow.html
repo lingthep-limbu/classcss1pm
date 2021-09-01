@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow</title>
+</head>
+<style>
+    .demo{
+        height: 300px;
+        width: 500px;
+        background-color: coral;
+        margin: auto;
+        /* margin: auto makes the box in middle of left and right...but does not works with up and down */
+        box-shadow:5px 5px 6px rgba(0, 0, 0, 0.5), -5px -5px 6px rgba(0, 0, 0, 0.4)
+        /* px value starts with  horizonal, vertical and last value defines the blurness of the shadow....rgba- a stands for alpha and its value describes the strength of shadow */
+    }
+    .demo-content{
+        height: 300px;
+        width: 500px;
+        margin: 15px auto 0;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    }
+</style>
+<body>
+    <div class="demo"></div>
+
+    <div class="demo-content"></div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector</title>
+    <style>
+        /* h1 is a tag selector */
+        h1{
+            color: red;
+            background-color: aquamarine;
+        }
+
+        /* .first is a class selector and mentioned with . class selector is never numerical and dont have spaces */
+        .first{
+            color: orange;
+            background-color: black;
+        }
+
+        /* #first is a id selector...id is always unique and never repeated */
+        #first{
+            color: chartreuse;
+        }
+
+        /* this is done with grouping tag selector method and done by naming the tags with comma */
+        h3, h4{
+            color: red;
+        }
+
+        /* this is a universal selector works to style all the elements and is done by using * */
+        *{
+            background-color: cornflowerblue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1> tag selector</h1>
+    <!-- styling a tag is called tag selector use the tag name in style as a selector -->
+    
+    <h2 class="first">class selector</h2>
+
+    <h2 id="first"> id selector</h2>
+
+    <h3> Heading three</h3>
+    <h4> Heading four</h4>
+
+</body>
+</html>

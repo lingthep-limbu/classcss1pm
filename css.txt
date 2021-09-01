@@ -1,0 +1,29 @@
+CSS
+Cascading stylesheet
+it is used to make web layout
+
+tyoes
+1. internal css -> written inside <head></head> tag
+2. external css -> written in external page which has extension  .css
+inline css -> written in tag itself eg. <h1 style = ""> ... </h1>
+
+basic syntax
+
+selector { properties: value;
+		eg. color: black; }
+
+
+shorthad property of margin and padding
+
+margin: 10px 	5px		7px		20px
+		top		right	bottom	left
+
+margin: 10px	7px				20px
+		top		left+right		bottom
+
+margin: 10px		20px
+		top+bottom	left+right
+
+margin: 10px
+		all
+	
