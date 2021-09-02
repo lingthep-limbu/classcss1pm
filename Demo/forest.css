@@ -3,15 +3,17 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+.body1-background{
     background-image: url(https://brainworldmagazine.com/wp-content/uploads/2015/07/ForestWalk.jpg);
-    height: 800px;
+    height: 750px;
     background-size: cover;
+    background-position: center;
+    
 }
 /* styling for header element */
 header{
     height: 15%;
-    border: solid;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,34 +50,97 @@ nav  ul li a{
 
 .body1{
     height: 500px;
-    border: solid black;
-    margin-top: 25px;
+    
+    margin-top: 150px;
 }
 .body1 .body1-banner1{
     color: #F4D03F;
 }
 .body1 .body1-banner2{
-    border: solid red;
+    
     color: white;
+    padding: 25px;
 }
 .body1 div p{
-    border: solid red;
-    width: 400px;
+  
+    width: 425px;
     color: whitesmoke;
 }
 .body1-button{
     
-    width: 200px;
+    width: 250px;
     height: 8%;
+    margin: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 .body1-button .button-aboutus{
     background-color: whitesmoke;
+    width: 100px;
     border-radius: 15%;
 }
 .body1-button .button-joinus{
     background-color: green;
+    width: 100px;
     border-radius: 15%;
 }
+
+/* start styling for body 2 elements */
+.body2-banner1{
+    height: 180px;
+    border: solid black;
+    margin: 90px;
+    
+}
+.body2-banner1 .wedo{
+    color: #4CAF50;
+}
+.body2-banner1 .wedo-motto{
+    margin-top: 10px;
+}
+.body2-banner1 .motto-msg{
+    padding: 20px;
+    width: 600px;
+}
+.body2-body{
+    height: 450px;
+    width: 100%;
+    border: solid black;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.body2-body .body-image{
+    height: 450px;
+    width: 30%;
+    border: solid green;
+
+}
+
+.body-image img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.body-content{
+    height: 450px;
+    width: 60%;
+    border: solid red;
+    
+}
+.abtus-motto{
+    padding: 20px;
+}
+.screenhot-data{
+    height: 30%;
+    margin: 25px;
+    border: solid black;
+}
+
