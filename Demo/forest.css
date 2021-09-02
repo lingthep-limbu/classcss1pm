@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://brainworldmagazine.com/wp-content/uploads/2015/07/ForestWalk.jpg);
+    height: 800px;
+    background-size: cover;
+}
+/* styling for header element */
+header{
+    height: 15%;
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.logo{
+    border: solid;
+    height: 90%;
+    width: 20%;
+    margin-left: 15px;
+    
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+    
+}
+nav ul{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+nav  ul li a{
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+.active{ 
+  background-color: orange;
+}
+/* end of styling for header content */
+
+.body1{
+    height: 500px;
+    border: solid black;
+    margin-top: 25px;
+}
+.body1 .body1-banner1{
+    color: #F4D03F;
+}
+.body1 .body1-banner2{
+    border: solid red;
+    color: white;
+}
+.body1 div p{
+    border: solid red;
+    width: 400px;
+    color: whitesmoke;
+}
+.body1-button{
+    
+    width: 200px;
+    height: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.body1-button .button-aboutus{
+    background-color: whitesmoke;
+    border-radius: 15%;
+}
+.body1-button .button-joinus{
+    background-color: green;
+    border-radius: 15%;
+}
