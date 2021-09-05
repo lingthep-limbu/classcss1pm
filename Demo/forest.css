@@ -5,7 +5,7 @@
 }
 .body1-background{
     background-image: url(https://brainworldmagazine.com/wp-content/uploads/2015/07/ForestWalk.jpg);
-    height: 750px;
+    
     background-size: cover;
     background-position: center;
     
@@ -21,8 +21,8 @@ header{
 }
 .logo{
     border: solid;
-    height: 90%;
-    width: 20%;
+    height: 100px;
+    width: 200px;
     margin-left: 15px;
     
 }
@@ -83,64 +83,828 @@ nav  ul li a{
 .body1-button .button-joinus{
     background-color: green;
     width: 100px;
-    border-radius: 15%;
+    border-radius: 10px;
 }
 
 /* start styling for body 2 elements */
+
+.body2-background{
+    margin: 25px;
+    background-color: white;
+
+}
+.body2-content{
+    border: solid red;
+    justify-content: center;
+}
 .body2-banner1{
     height: 180px;
-    border: solid black;
-    margin: 90px;
+    
     
 }
 .body2-banner1 .wedo{
     color: #4CAF50;
+    text-align: center;
 }
 .body2-banner1 .wedo-motto{
     margin-top: 10px;
+    text-align: center;
+    
 }
 .body2-banner1 .motto-msg{
-    padding: 20px;
-    width: 600px;
+    padding: 5px; 
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
 }
+
 .body2-body{
-    height: 450px;
-    width: 100%;
-    border: solid black;
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
-    
-    
+    border: solid blue;
+    margin: auto;
+    width: 80%;
+    display: flex;   
+    flex-wrap: wrap;  
+    justify-content: center;
 }
 
-.body2-body .body-image{
-    height: 450px;
-    width: 30%;
+.body2-body .body-image{   
     border: solid green;
-
+    height: 500px;
+    width: 400px;
+    margin: auto;
 }
 
-.body-image img{
-    height: 100%;
-    width: 100%;
+
+
+.body2-body .body-content{
+    height: 500px;
+    width: 550px;
+    border: solid orange;
+    margin: auto;
+    padding: 10px;
     
 }
-
-.body-content{
-    height: 450px;
-    width: 60%;
-    border: solid red;
-    
+.content-abtus{
+    color: green;   
+    padding: 5px;
+    box-sizing: border-box;
 }
 .abtus-motto{
-    padding: 20px;
+    padding: 5px;
+    box-sizing: border-box;   
+}
+.abtus-msg{
+    padding: 5px;
+    box-sizing: border-box;  
 }
 .screenhot-data{
     height: 30%;
-    margin: 25px;
+    margin-top: 10px;
     border: solid black;
 }
 
+/* styling for body 3 */
+.body3-background{
+    background-image: url(https://www.worldforestry.org/wp-content/uploads/2020/02/dan-otis-OYFHT4X5isg-unsplash-scaled.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    
+}
+.body3-content{
+    border: solid green;
+    padding: 5px;
+    justify-content: center;
+}
+
+.body3-top{
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.content-p{
+    margin-top: 5px;
+    margin-left: 35px;
+    padding: 5px;
+    text-align: right;
+    color: white;
+    width: 40%;
+}
+.body3-banner{
+    padding: 5px;
+}
+.body3-weprovide{
+    
+    text-align: center;
+    color: green;
+}
+.body3-services{
+    
+    text-align: center;
+    color: white;
+}
+.services{
+    height: 85%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+}
+.services-items{
+    
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: white;
+    height: 200px;
+    width: 350px;
+    
+    
+}
+.service-icon{
+    height: 25%;
+    text-align: center;
+}
+.service-icon img{
+    height: 100%;
+}
+.services p{
+    padding: 7px;
+    color: crimson;
+}
+/* end of body 3 styling */
+
+/* start of body 4 styling gallery */
+
+.body4-content{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+}
+.body4-top{
+    margin: 5px;
+    padding: 5px;
+    
+}
+.top-banner{
+    border: solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.top-banner .banner1{
+    
+    text-align: right;
+    
+    
+    
+}
+.banner-p p{
+
+    width: 450px;
+    
+
+    
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.gallery-image{
+    height: 350px ;
+    width: 500px;
+      
+    margin: 15px;
+}
+.gallery-image img{
+    height: 100%;
+    width: 100%;
+}
+.gallery-image-s{
+    height: 175px;
+    width: 225px;
+    margin: 15px;
+    
+}
+.gallery-image-s img{
+    height: 100%;
+    width: 100%;
+}
+.gallery-image-p{
+    height: 300px;
+    width: 225px;
+    margin: 15px;   
+}
+.gallery-image-p img{
+    height: 100%;
+    width: 100%;
+}
+
+/* end of style for body4 gallery */
+
+/* style for banner with data */
+.data-banner{
+    background-color:rgb(125, 201, 95);
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+}
+.data-banner .data{
+    
+    height: 100%;
+    width: 150px;   
+    
+}
+.data .data-item{
+    height: 20%;
+    width: 20%;
+    margin-top: 75px;   
+}
+
+.data-item img{
+    height: 100%;
+    width: 100%;
+}
+.data-no{
+    color: black;
+    padding: 10px;   
+}
+.data-topic{  
+    color: white;
+
+}
+/* end of stying data banner section */
+
+/* start styly for body 5 features */
+
+.body5-background{
+    background-size: cover;
+}
+.body5-content{
+    
+    border: solid blue;
+    margin-top: 50px;
+    justify-content: center;
+}
+.body5-top{
+    border: solid red;
+    height: 20%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.body5-top-msg{
+    border: solid black;
+    text-align: right;
+    width: 415px;
+}
+.body5-banner{
+    border: solid coral;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.body5-banner1{
+    color: rgb(125, 201, 95);
+    margin-right: 20%;
+    
+}
+.body5-banner2{
+    border: solid black;
+    font-size: 15px;
+    
+}
+.body5-body{
+    border: solid black;
+    height: 70%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.body5-body-image{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 450px;
+    width: 400px;
+    
+    
+}
+.body5-body-image img{
+    height: 100%;
+    width: 100%;
+}
+.body5-features{
+    
+    height: 100%;
+    width: 700px;
+}
+.features-item{
+    
+    height: 25%;
+    width: 525px;
+    margin: 50px;
+    margin-left: 85px;
+    display: flex;
+    
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 1.5);
+    
+}
+.features-image{
+    height: 50%;
+    width: 70px;
+    border: solid crimson;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.features-image img{
+    height: 100%;
+    width: 100%;
+}
+.feat-topic{
+    
+    padding: 10px;
+    margin-left: 70px;
+    
+    
+}
+.feat-topic h3{
+    color: green;
+}
+.feat-topic p{
+    margin-top: 5px;
+}
+
+/* end of styling body 5 */
+
+/* start of body 6 */
+.body6-background{
+    background-image: url("https://amimagazine.global/wp-content/uploads/sites/2/2019/03/blogue_industrie_forestiere.jpg");
+    background-size: cover;
+}
+.body6-content{
+    border: solid red;
+    height: 100%;
+    margin: 5px;
+}
+.body6-top{
+    border: solid teal;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+
+}
+.body6-top-banner{
+    border: solid green;
+    text-align: right;
+    margin-right: 10px;
+    
+    
+   
+}
+.body6-top-banner h3{
+    color: green;
+}
+.body6-top-banner h1{
+    color: rgb(121, 111, 111);
+}
+.body6-top-banner p{
+    width: 525px;
+    border: solid violet;
+    text-align: center;
+}
+.content6-body-prices{
+    border: solid brown;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.prices-item{
+    border: solid goldenrod;
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    
+}
+.price-type{
+    border:solid green;
+    text-align: center;
+    padding: 20px;
+}
+.price{
+    border: solid red;
+    text-align: center;
+    padding: 20px;
+}
+.prices-item .p{
+    
+    text-align: center;
+    padding: 20px;
+}
+.book-now{
+    text-align: center;
+    padding: 20px;
+}
+.book-now button{
+    height: 30px;
+    width: 80px;
+    background-color: green;
+    
+}
+
+/* end of styling body 6 */
+
+/* start of styling body 7 */
+.body7-background{
+    background-size: cover;
+}
+.body7-content{
+    border: solid blue;
+    justify-content: center;
+}
+
+.body7-top{
+    height: 20%;
+    border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.clients-msg{
+    border: solid red;
+    width: 500px;
+    text-align: right;
+    margin-right: 25px;
+}
+.body7-top-banner{
+    border: solid green;
+    width: 250px;
+}
+.clients-banner{
+    border: solid blue;
+}
+
+.body7-body{
+    height: 80%;
+    border: solid yellowgreen;
+    margin: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.clients{
+    height: 400px;
+    width: 350px;
+    border: solid orangered;   
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+    
+}
+.clients-image{
+    height: 40%;
+    width: 40%;
+    border: green;   
+}
+
+.clients-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.client-name{
+    color: green;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+.our-client{
+    font-size: 17px;
+    color: black;
+    
+}
+.clients p{
+    color: gray;
+    margin-top: 20px;
+}
+/* end of styling for body7 */
+.video{
+    margin-top: 10px;
+    height: 400px;
+    background-color: green;
+}
+
+/* start styling for body 8 */
+
+.body8-content{
+    border: solid red;
+    height: 100%;
+}
+.body8-top{
+    border: solid blue;
+    height: 125px;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+.body8-top-msg{
+    border: solid black;
+    width: 500px;
+    text-align: right;
+}
+.body8-banner{
+    border:solid yellowgreen ;
+    width: 250px;
+}
+.body8-banner1{
+    border: solid blue;
+    color: green;
+}
+.volunteer-section{
+    
+    border: solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.volunteer{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 450px;
+    width: 300px;
+    border: solid black;
+}
+.volunteer-image{
+    height: 65%;
+    width: 100%;
+    border: solid brown;
+}
+.volunteer-name{
+    margin-top: 15px;
+    color: green;
+    text-align: center;
+}
+.volunteer-post{
+    margin-top: 10px;
+    text-align: center;
+}
+.social-media{
+    margin-top: 18px;
+    height: 7% ;
+    border: solid chocolate;
+    display: flex;
+    justify-content: space-evenly;
+}
+.facebook{
+    height: 100%;
+    border: solid green;
+}
+.facebook img{
+    height: 100%;
+}
+.twitter{
+    height: 100%;
+    border: solid blue;
+}
+.twitter img{
+    height: 100%;
+}
+.wifi{
+    height: 100%;
+    border: solid red;
+}
+.wifi img{
+    height: 100%;
+}
+
+/* end of styling body 8 */
+
+/* start styling body 9 */
+.body9-background{
+    background-image: url("https://i.redd.it/ea651oknrvd11.jpg");
+    background-size: cover;
+    
+}
+.body9-content{
+    border: solid red;
+    justify-content: center;
+    
+}
+.body9-head{
+    
+    
+    border: solid whitesmoke;
+}
+.body9-top{
+    width: 70%;
+    border: solid green;
+    /* margin-top: 50px; */
+    /* margin-left: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.body9-banner{
+    border: solid blue;
+    margin-right: 20px;
+}
+.body9-banner1{
+    border: solid green;
+    color: limegreen;
+    font-size: 20px;
+    text-align: center;
+}
+.body9-banner2{
+    border: solid black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.body9-top-msg{
+    width: 80%;
+    margin-top: 15px;
+    border: solid crimson;
+    color: whitesmoke;
+    text-align: center;
+}
+.blog-section{
+    
+    border: solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blog-item{
+    height: 425px;
+    width: 350px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border: solid white;
+    background-color: white;
+    
+}
+.blog-image{
+    height:50%;
+    border: solid turquoise;
+    margin: 5px;
+}
+.blog-image img{
+    height: 100%;
+}
+.blog-type{
+    border: solid yellow;
+    text-align: center;
+    margin: 5px;
+}
+.blog-title{
+    border: solid black;
+    text-align: center;
+    color: green;
+    margin: 5px;
+}
+.blog-text{
+    border: solid purple;
+    text-align: center;
+    margin: 5px;
+    margin-top: 10px;
+}
+.date-tags{
+    border: solid black;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.date{
+    border: solid red;
+
+}
+.tags{
+    border: solid gold;
+}
+
+/* end of styling body9 */
+
+/* start of tyling body10 */
+
+.body10-content{
+    border: solid black;
+    
+    margin-top: 30px;   
+}
+.body10-top{
+    border: solid whitesmoke;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.body-top-msg{
+    border: solid black;
+}
+.body10-banner{
+    border: solid rgb(13, 102, 72);
+}
+.banner1{
+    border: solid brown;
+}
+.banner2{
+    border: solid blue;
+}
+.body10-body{
+    border: solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fill-form{
+    border: solid green;
+   
+    
+}
+.contact-details{
+    border: solid blue;
+    height: 500px;
+}
+
+.contact-item{
+    border: solid black;
+    margin-top: 10px;
+    margin-left: 5px;
+
+    height: 150px;
+    width: 500px;
+    display: flex;
+    
+}
+.contact-image{
+    
+    border: solid red;
+    margin: 5px 5px 5px;
+    
+}
+.contact-image img{
+    height: 100%;
+    width: 100%;
+}
+.contact-means{
+    border: solid green;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    width: 300px;
+   
+}
+
+.means-title{
+    border: solid black;
+    font-size: 20px;
+    color: green;
+}
+
+.means-detail{
+    border: solid red;
+    margin-top: 30px;
+}
+
+/* end of styling body 10 */
+
+.map{
+    height: 300px;
+    border: solid gray;
+    margin-top: 10px;
+}
+.map iframe{
+    height: 100%;
+    width: 100%;
+    margin: 5px 5px 5px;
+}
