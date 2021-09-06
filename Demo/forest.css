@@ -36,13 +36,21 @@ nav ul{
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    margin-right: 25px;
 
 }
 nav  ul li a{
     font-size: 20px;
     padding: 10px;
     text-decoration: none;
+    color: rgb(233, 101, 233);
+    
 }
+
+nav  ul li:hover a{
+    color: white;
+}
+
 .active{ 
   background-color: orange;
 }
@@ -78,12 +86,21 @@ nav  ul li a{
 .body1-button .button-aboutus{
     background-color: whitesmoke;
     width: 100px;
-    border-radius: 15%;
+    border-radius: 10px;
 }
+.button-aboutus:hover{
+    background-color: black;
+}
+
+
 .body1-button .button-joinus{
     background-color: green;
     width: 100px;
+    border:solid white;
     border-radius: 10px;
+}
+.button-joinus:hover{
+    background-color: black;
 }
 
 /* start styling for body 2 elements */
@@ -158,9 +175,13 @@ nav  ul li a{
     box-sizing: border-box;  
 }
 .screenhot-data{
-    height: 30%;
-    margin-top: 10px;
+    height: 250px;
+    margin-top: 25px;
     border: solid black;
+}
+.screenhot-data img{
+    height: 100%;
+    width: 100%;
 }
 
 /* styling for body 3 */
@@ -176,6 +197,7 @@ nav  ul li a{
     border: solid green;
     padding: 5px;
     justify-content: center;
+    
 }
 
 .body3-top{
@@ -313,7 +335,7 @@ nav  ul li a{
 /* style for banner with data */
 .data-banner{
     background-color:rgb(125, 201, 95);
-    height: 250px;
+    
     display: flex;
     flex-wrap: wrap;
     
@@ -323,6 +345,7 @@ nav  ul li a{
     
     height: 100%;
     width: 150px;   
+    margin-bottom: 30px;
     
 }
 .data .data-item{
@@ -454,6 +477,7 @@ nav  ul li a{
 
 /* start of body 6 */
 .body6-background{
+    margin-top: 15px;
     background-image: url("https://amimagazine.global/wp-content/uploads/sites/2/2019/03/blogue_industrie_forestiere.jpg");
     background-size: cover;
 }
@@ -543,6 +567,7 @@ nav  ul li a{
     background-size: cover;
 }
 .body7-content{
+    margin-top: 20px;
     border: solid blue;
     justify-content: center;
 }
@@ -616,10 +641,32 @@ nav  ul li a{
     margin-top: 20px;
 }
 /* end of styling for body7 */
-.video{
-    margin-top: 10px;
-    height: 400px;
+
+/* start of styling video */
+.video-layout{
+    border: solid orange;
     background-color: green;
+    margin-top: 15px;
+}
+.video{
+    border: solid black;
+    margin-top: 10px;
+    height: 175px;
+    width: 225px;
+    
+}
+.video iframe{
+    height: 100%;
+    width: 100%;
+}
+.video-banner{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 70%;
+}
+.video-banner h2{
+    color: white;
+    margin-bottom: 10px;
 }
 
 /* start styling for body 8 */
@@ -627,6 +674,7 @@ nav  ul li a{
 .body8-content{
     border: solid red;
     height: 100%;
+    margin-top: 15px;
 }
 .body8-top{
     border: solid blue;
@@ -710,6 +758,7 @@ nav  ul li a{
 
 /* start styling body 9 */
 .body9-background{
+    margin-top: 25px;
     background-image: url("https://i.redd.it/ea651oknrvd11.jpg");
     background-size: cover;
     
@@ -842,30 +891,51 @@ nav  ul li a{
 }
 .body10-body{
     border: solid red;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .fill-form{
     border: solid green;
     width: 500px;
+    margin-top: 25px;
+    margin-bottom: 25px;
    
     
 }
 .fill-form input{
-    width: 70%;
-    height: 30px;
+    width: 100%;
+    height: 45px;
     margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: rgb(194, 193, 193);
+    
+    border: none;
+}
+#message{
+    height: 175px;
+    
+}
+
+#submit{
+    height: 40px;
+    background-color: green;
+    border-radius: 15px;
+}
+.fill-form input .contact-msg{
+    height: 120px;
 }
 .contact-details{
     border: solid blue;
     height: 500px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .contact-item{
     border: solid black;
-    margin-top: 10px;
-    margin-left: 5px;
+    margin-bottom: 25px;
 
     height: 150px;
     width: 500px;
@@ -873,9 +943,10 @@ nav  ul li a{
     
 }
 .contact-image{
+    height: 40%;
     
     border: solid red;
-    margin: 5px 5px 5px;
+    margin: 40px 30px 5px;
     
 }
 .contact-image img{
@@ -908,9 +979,45 @@ nav  ul li a{
     height: 300px;
     border: solid gray;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 .map iframe{
-    height: 100%;
+    height: 95%;
     width: 100%;
     margin: 5px 5px 5px;
 }
+
+/* start of bottom menu footer */
+
+
+footer{
+    height: 150px;
+    background-color: green;
+   
+   
+}
+.footer-layout{
+    border: red solid;
+    height: 100%;
+}
+.copyright{
+    padding: 20px;
+    border: solid black;
+}
+.footer-media{
+    height: 50px;
+    border: solid orange;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+.footer-media-icon{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    
+}
+.footer-media-icon img{
+    height: 100%;
+}
+
