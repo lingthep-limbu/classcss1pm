@@ -2,26 +2,64 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
-body{
+.sidebar{
+    background-color:rgb(39, 94, 39);
+    width: 60px;
+    height: 400px;
+    margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+    position: fixed;
+    right: 0px;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    
+    
+}
+.icon1{
+    margin-top: 25px;
+    height: 50px;
+    width: 54px;
+    
+    justify-content: center;
+    background-color: white;
+}
+.icon1 h3{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+.icon1 img{
+    height: 100%;
+    width: 100%;
+    
+}
+.body1-background{
     background-image: url(https://brainworldmagazine.com/wp-content/uploads/2015/07/ForestWalk.jpg);
-    height: 800px;
+    
     background-size: cover;
+    background-position: center;
+    
 }
 /* styling for header element */
 header{
     height: 15%;
-    border: solid;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
    
 }
 .logo{
-    border: solid;
-    height: 90%;
-    width: 20%;
+    height: 100px;
+    width: 200px;
     margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
     
 }
 .logo img{
@@ -34,13 +72,21 @@ nav ul{
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    margin-right: 25px;
 
 }
 nav  ul li a{
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px;
     text-decoration: none;
+    color: rgb(191, 250, 242);
+    
 }
+
+nav  ul li:hover a{
+    color: white;
+}
+
 .active{ 
   background-color: orange;
 }
@@ -48,34 +94,913 @@ nav  ul li a{
 
 .body1{
     height: 500px;
-    border: solid black;
-    margin-top: 25px;
+    
+    margin-top: 150px;
 }
 .body1 .body1-banner1{
     color: #F4D03F;
 }
 .body1 .body1-banner2{
-    border: solid red;
+    
     color: white;
+    padding: 25px;
 }
 .body1 div p{
-    border: solid red;
-    width: 400px;
+  
+    width: 425px;
     color: whitesmoke;
 }
 .body1-button{
     
-    width: 200px;
+    width: 250px;
     height: 8%;
+    margin: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 .body1-button .button-aboutus{
     background-color: whitesmoke;
-    border-radius: 15%;
+    width: 100px;
+    border-radius: 10px;
 }
+.button-aboutus:hover{
+    background-color: black;
+}
+
+
 .body1-button .button-joinus{
     background-color: green;
-    border-radius: 15%;
+    width: 100px;
+    border: solid white;
+    border-radius: 10px;
 }
+.button-joinus:hover{
+    background-color: black;
+}
+
+/* start styling for body 2 elements */
+
+.body2-background{
+    margin: 25px;
+    background-color: white;
+
+}
+.body2-content{
+    justify-content: center;
+}
+.body2-banner1{
+    height: 180px;
+    
+    
+}
+.body2-banner1 .wedo{
+    color: #4CAF50;
+    text-align: center;
+}
+.body2-banner1 .wedo-motto{
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.body2-banner1 .motto-msg{
+    padding: 5px; 
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.body2-body{
+    margin: auto;
+    width: 80%;
+    display: flex;   
+    flex-wrap: wrap;  
+    justify-content: center;
+}
+
+.body2-body .body-image{   
+    border: solid green;
+    height: 525px;
+    width: 400px;
+    margin: auto;
+}
+.body-image img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.body2-body .body-content{
+    height: 500px;
+    width: 650px;
+    margin: auto;
+    padding: 10px;
+    
+}
+.content-abtus{
+    color: green;   
+    padding: 5px;
+    box-sizing: border-box;
+}
+.abtus-motto{
+    padding: 5px;
+    box-sizing: border-box;   
+}
+.abtus-msg{
+    padding: 5px;
+    box-sizing: border-box;  
+}
+.screenhot-data{
+    height: 300px;
+    margin-top: 25px;
+}
+.screenhot-data img{
+    height: 100%;
+    width: 100%;
+}
+
+/* styling for body 3 */
+.body3-background{
+    background-image: url(https://www.worldforestry.org/wp-content/uploads/2020/02/dan-otis-OYFHT4X5isg-unsplash-scaled.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    
+}
+.body3-content{
+    padding: 5px;
+    justify-content: center;
+    
+}
+
+.body3-top{
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.content-p{
+    margin-top: 5px;
+    margin-left: 35px;
+    padding: 5px;
+    text-align: right;
+    color: white;
+    width: 40%;
+}
+.body3-banner{
+    padding: 5px;
+}
+.body3-weprovide{
+    
+    text-align: center;
+    color: green;
+}
+.body3-services{
+    
+    text-align: center;
+    color: white;
+}
+.services{
+    height: 85%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+}
+.services-items{
+    
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    background-color: white;
+    height: 175px;
+    width: 350px;
+    
+    
+}
+.service-icon{
+    height: 25%;
+    text-align: center;
+}
+.service-icon img{
+    height: 100%;
+}
+.services p{
+    padding: 7px;
+    color: crimson;
+}
+/* end of body 3 styling */
+
+/* start of body 4 styling gallery */
+
+.body4-content{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+}
+.body4-top{
+    margin: 5px;
+    padding: 5px;
+    
+}
+.top-banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.top-banner .banner1{
+    
+    text-align: right;
+    
+    
+    
+}
+.banner-p p{
+
+    width: 450px;
+    
+
+    
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.gallery-image{
+    height: 350px ;
+    width: 500px;
+      
+    margin: 15px;
+}
+.gallery-image img{
+    height: 100%;
+    width: 100%;
+}
+.gallery-image-s{
+    height: 175px;
+    width: 225px;
+    margin: 15px;
+    
+}
+.gallery-image-s img{
+    height: 100%;
+    width: 100%;
+}
+.gallery-image-p{
+    height: 300px;
+    width: 225px;
+    margin: 15px;   
+}
+.gallery-image-p img{
+    height: 100%;
+    width: 100%;
+}
+
+/* end of style for body4 gallery */
+
+/* style for banner with data */
+.data-banner{
+    background-color:rgb(125, 201, 95);
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+}
+.data-banner .data{
+    
+    height: 100%;
+    width: 150px;   
+    margin-bottom: 30px;
+    
+}
+.data .data-item{
+    height: 20%;
+    width: 20%;
+    margin-top: 75px;   
+}
+
+.data-item img{
+    height: 100%;
+    width: 100%;
+}
+.data-no{
+    color: black;
+    padding: 10px;   
+}
+.data-topic{  
+    color: white;
+
+}
+/* end of stying data banner section */
+
+/* start styly for body 5 features */
+
+.body5-background{
+    background-size: cover;
+}
+.body5-content{
+    
+    margin-top: 50px;
+    justify-content: center;
+}
+.body5-top{
+    height: 20%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.body5-top-msg{
+    text-align: right;
+    width: 415px;
+}
+.body5-banner{
+    margin-left: 20px;
+    width: 50%;
+}
+
+.body5-banner1{
+    color: rgb(125, 201, 95);
+    margin-right: 20%;
+    
+}
+.body5-banner2{
+    font-size: 15px;
+    
+}
+.body5-body{
+    height: 70%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.body5-body-image{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 450px;
+    width: 400px;
+    
+    
+}
+.body5-body-image img{
+    height: 100%;
+    width: 100%;
+}
+.body5-features{
+    
+    height: 100%;
+    width: 700px;
+}
+.features-item{
+    
+    height: 25%;
+    width: 525px;
+    margin: 50px;
+    margin-left: 85px;
+    display: flex;
+    
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 1.5);
+    
+}
+.features-image{
+    height: 50%;
+    width: 70px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.features-image img{
+    height: 100%;
+    width: 100%;
+}
+.feat-topic{
+    
+    padding: 10px;
+    margin-left: 70px;
+    
+    
+}
+.feat-topic h3{
+    color: green;
+}
+.feat-topic p{
+    margin-top: 5px;
+}
+
+/* end of styling body 5 */
+
+/* start of body 6 */
+.body6-background{
+    margin-top: 15px;
+    background-image: url("https://amimagazine.global/wp-content/uploads/sites/2/2019/03/blogue_industrie_forestiere.jpg");
+    background-size: cover;
+}
+.body6-content{
+    height: 100%;
+    margin: 5px;
+}
+.body6-top{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+
+}
+.body6-top-banner{
+    margin-top: 25px;
+    text-align: right;
+    margin-right: 10px;
+    width: 500px;
+    
+    
+   
+}
+.body6-top-banner h3{
+    color: rgb(69, 231, 69);
+}
+.body6-top-banner h1{
+    color: rgb(92, 75, 75);
+}
+.body6-top-banner p{
+    width: 525px;
+    text-align: center;
+}
+.content6-body-prices{
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.prices-item{
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    
+    
+}
+.price-type{
+    text-align: center;
+    padding: 20px;
+}
+.price{
+    text-align: center;
+    padding: 20px;
+}
+.prices-item .p{
+    
+    text-align: center;
+    padding: 20px;
+}
+.book-now{
+    text-align: center;
+    padding: 20px;
+}
+.book-now button{
+    height: 30px;
+    width: 80px;
+    background-color: green;
+    border-radius: 5px;
+    
+}
+
+/* end of styling body 6 */
+
+/* start of styling body 7 */
+.body7-background{
+    background-size: cover;
+}
+.body7-content{
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.body7-top{
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.clients-msg{
+    width: 500px;
+    text-align: right;
+    margin-right: 25px;
+}
+.body7-top-banner{
+    width: 250px;
+}
+
+
+.body7-body{
+    height: 80%;
+    margin: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.clients{
+    height: 400px;
+    width: 350px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+    
+}
+.clients-image{
+    height: 40%;
+    width: 40%;
+    border: green;   
+}
+
+.clients-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.client-name{
+    color: green;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+.our-client{
+    font-size: 17px;
+    color: black;
+    
+}
+.clients p{
+    color: gray;
+    margin-top: 20px;
+}
+/* end of styling for body7 */
+
+/* start of styling video */
+.video-layout{
+    background-color: green;
+    margin-top: 15px;
+}
+.video{
+    border: solid black;
+    margin-top: 10px;
+    height: 175px;
+    width: 225px;
+    
+}
+.video iframe{
+    height: 100%;
+    width: 100%;
+}
+.video-banner{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 70%;
+}
+.video-banner h2{
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* start styling for body 8 */
+
+.body8-content{
+    height: 100%;
+    margin-top: 15px;
+}
+.body8-top{
+    height: 125px;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+.body8-top-msg{
+    width: 500px;
+    text-align: right;
+}
+.body8-banner{
+    width: 250px;
+}
+.body8-banner1{
+    color: green;
+}
+.volunteer-section{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.volunteer{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 450px;
+    width: 300px;
+}
+.volunteer-image{
+    height: 65%;
+    width: 100%;
+}
+
+.volunteer-image img{
+    height: 100%;
+    width: 100%;
+}
+.volunteer-name{
+    margin-top: 15px;
+    color: green;
+    text-align: center;
+}
+.volunteer-post{
+    margin-top: 10px;
+    text-align: center;
+}
+.social-media{
+    margin-top: 18px;
+    height: 7% ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.facebook{
+    height: 100%;
+}
+.facebook img{
+    height: 100%;
+}
+.twitter{
+    height: 100%;
+}
+.twitter img{
+    height: 100%;
+}
+.wifi{
+    height: 100%;
+}
+.wifi img{
+    height: 100%;
+}
+
+/* end of styling body 8 */
+
+/* start styling body 9 */
+.body9-background{
+    margin-top: 25px;
+    background-image: url("https://i.redd.it/ea651oknrvd11.jpg");
+    background-size: cover;
+    
+}
+.body9-content{
+    justify-content: center;
+    
+}
+.body9-head{
+    
+    
+}
+.body9-top{
+    margin-top: 15px;
+    width: 70%;
+    /* margin-top: 50px; */
+    /* margin-left: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.body9-banner{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.body9-banner1{
+    color: limegreen;
+    font-size: 20px;
+    text-align: center;
+}
+.body9-banner2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.body9-top-msg{
+    width: 500px;
+    margin-top: 15px;
+    color: whitesmoke;
+    text-align: center;
+}
+.blog-section{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blog-item{
+    height: 425px;
+    width: 350px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+    
+}
+.blog-image{
+    height:50%;
+    margin: 5px;
+}
+.blog-image img{
+    height: 100%;
+    width: 100%;
+}
+.blog-type{
+    text-align: center;
+    margin: 5px;
+}
+.blog-title{
+    text-align: center;
+    color: green;
+    margin: 5px;
+}
+.blog-text{
+    text-align: center;
+    margin: 5px;
+    margin-top: 10px;
+}
+.date-tags{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.date{
+
+}
+.tags{
+}
+
+/* end of styling body9 */
+
+/* start of tyling body10 */
+
+.body10-content{
+    
+    margin-top: 30px;   
+}
+.body10-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.body-top-msg{
+}
+.body10-banner{
+    
+}
+.banner1{
+    font-size: 20px;
+}
+.banner2{
+    font-size: 20px;
+    color: green;
+}
+.body10-body{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.fill-form{
+    width: 500px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: none;
+   
+    
+}
+.fill-form input{
+    width: 100%;
+    height: 45px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: rgba(194, 193, 193);
+    
+    border: none;
+    border-bottom: solid black;
+}
+#message{
+    height: 175px;
+    
+}
+
+#submit{
+    height: 40px;
+    background-color: green;
+    border-radius: 15px;
+}
+.fill-form input .contact-msg{
+    height: 120px;
+}
+.contact-details{
+    height: 500px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.contact-item{
+    margin-bottom: 25px;
+
+    height: 150px;
+    width: 500px;
+    display: flex;
+    
+}
+.contact-image{
+    height: 40%;
+    
+    margin: 40px 30px 5px;
+    
+}
+.contact-image img{
+    height: 100%;
+    width: 100%;
+}
+.contact-means{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    width: 300px;
+   
+}
+
+.means-title{
+    font-size: 20px;
+    color: green;
+}
+
+.means-detail{
+    margin-top: 30px;
+}
+
+/* end of styling body 10 */
+
+.map{
+    height: 300px;
+    border: solid gray;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.map iframe{
+    height: 95%;
+    width: 100%;
+    margin: 5px 5px 5px;
+}
+
+/* start of bottom menu footer */
+
+
+footer{
+    height: 150px;
+    background-color: green;
+   
+   
+}
+.footer-layout{
+    height: 100%;
+}
+.copyright{
+    padding: 20px;
+}
+.footer-media{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+.footer-media-icon{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    
+}
+.footer-media-icon img{
+    height: 100%;
+}
+
