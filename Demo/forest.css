@@ -891,6 +891,7 @@ nav  ul li:hover a{
     width: 500px;
     margin-top: 25px;
     margin-bottom: 25px;
+    border: none;
    
     
 }
