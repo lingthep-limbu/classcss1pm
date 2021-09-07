@@ -2,6 +2,41 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
+}
+.sidebar{
+    background-color:rgb(39, 94, 39);
+    width: 60px;
+    height: 400px;
+    margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+    position: fixed;
+    right: 0px;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    
+    
+}
+.icon1{
+    margin-top: 25px;
+    height: 50px;
+    width: 54px;
+    
+    justify-content: center;
+    background-color: white;
+}
+.icon1 h3{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+.icon1 img{
+    height: 100%;
+    width: 100%;
+    
 }
 .body1-background{
     background-image: url(https://brainworldmagazine.com/wp-content/uploads/2015/07/ForestWalk.jpg);
@@ -20,10 +55,11 @@ header{
    
 }
 .logo{
-    border: solid;
     height: 100px;
     width: 200px;
     margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
     
 }
 .logo img{
@@ -40,10 +76,10 @@ nav ul{
 
 }
 nav  ul li a{
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px;
     text-decoration: none;
-    color: rgb(233, 101, 233);
+    color: rgb(191, 250, 242);
     
 }
 
@@ -96,7 +132,7 @@ nav  ul li:hover a{
 .body1-button .button-joinus{
     background-color: green;
     width: 100px;
-    border:solid white;
+    border: solid white;
     border-radius: 10px;
 }
 .button-joinus:hover{
@@ -111,7 +147,6 @@ nav  ul li:hover a{
 
 }
 .body2-content{
-    border: solid red;
     justify-content: center;
 }
 .body2-banner1{
@@ -136,7 +171,6 @@ nav  ul li:hover a{
 }
 
 .body2-body{
-    border: solid blue;
     margin: auto;
     width: 80%;
     display: flex;   
@@ -146,17 +180,19 @@ nav  ul li:hover a{
 
 .body2-body .body-image{   
     border: solid green;
-    height: 500px;
+    height: 525px;
     width: 400px;
     margin: auto;
 }
-
+.body-image img{
+    height: 100%;
+    width: 100%;
+}
 
 
 .body2-body .body-content{
     height: 500px;
     width: 650px;
-    border: solid orange;
     margin: auto;
     padding: 10px;
     
@@ -175,9 +211,8 @@ nav  ul li:hover a{
     box-sizing: border-box;  
 }
 .screenhot-data{
-    height: 290px;
+    height: 300px;
     margin-top: 25px;
-    border: solid black;
 }
 .screenhot-data img{
     height: 100%;
@@ -194,7 +229,6 @@ nav  ul li:hover a{
     
 }
 .body3-content{
-    border: solid green;
     padding: 5px;
     justify-content: center;
     
@@ -241,8 +275,9 @@ nav  ul li:hover a{
     
     margin-top: 5px;
     margin-left: 20px;
+    margin-bottom: 15px;
     background-color: white;
-    height: 200px;
+    height: 175px;
     width: 350px;
     
     
@@ -275,7 +310,6 @@ nav  ul li:hover a{
     
 }
 .top-banner{
-    border: solid blue;
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
@@ -295,7 +329,6 @@ nav  ul li:hover a{
     
 }
 .gallery{
-    border: solid red;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -376,12 +409,10 @@ nav  ul li:hover a{
 }
 .body5-content{
     
-    border: solid blue;
     margin-top: 50px;
     justify-content: center;
 }
 .body5-top{
-    border: solid red;
     height: 20%;
     
     display: flex;
@@ -391,12 +422,10 @@ nav  ul li:hover a{
 
 }
 .body5-top-msg{
-    border: solid black;
     text-align: right;
     width: 415px;
 }
 .body5-banner{
-    border: solid coral;
     margin-left: 20px;
     width: 50%;
 }
@@ -407,12 +436,10 @@ nav  ul li:hover a{
     
 }
 .body5-banner2{
-    border: solid black;
     font-size: 15px;
     
 }
 .body5-body{
-    border: solid black;
     height: 70%;
     
     display: flex;
@@ -452,7 +479,6 @@ nav  ul li:hover a{
 .features-image{
     height: 50%;
     width: 70px;
-    border: solid crimson;
     margin-top: 25px;
     margin-left: 50px;
 }
@@ -483,12 +509,10 @@ nav  ul li:hover a{
     background-size: cover;
 }
 .body6-content{
-    border: solid red;
     height: 100%;
     margin: 5px;
 }
 .body6-top{
-    border: solid teal;
     display: flex;
     flex-wrap: wrap;
     
@@ -496,26 +520,25 @@ nav  ul li:hover a{
 
 }
 .body6-top-banner{
-    border: solid green;
+    margin-top: 25px;
     text-align: right;
     margin-right: 10px;
+    width: 500px;
     
     
    
 }
 .body6-top-banner h3{
-    color: green;
+    color: rgb(69, 231, 69);
 }
 .body6-top-banner h1{
-    color: rgb(121, 111, 111);
+    color: rgb(92, 75, 75);
 }
 .body6-top-banner p{
     width: 525px;
-    border: solid violet;
     text-align: center;
 }
 .content6-body-prices{
-    border: solid brown;
     height: 80%;
     display: flex;
     flex-wrap: wrap;
@@ -525,23 +548,20 @@ nav  ul li:hover a{
     
 }
 .prices-item{
-    border: solid goldenrod;
     background-color: white;
     width: 250px;
     height: 350px;
     margin: auto;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     
     
 }
 .price-type{
-    border:solid green;
     text-align: center;
     padding: 20px;
 }
 .price{
-    border: solid red;
     text-align: center;
     padding: 20px;
 }
@@ -558,6 +578,7 @@ nav  ul li:hover a{
     height: 30px;
     width: 80px;
     background-color: green;
+    border-radius: 5px;
     
 }
 
@@ -569,34 +590,27 @@ nav  ul li:hover a{
 }
 .body7-content{
     margin-top: 20px;
-    border: solid blue;
     justify-content: center;
 }
 
 .body7-top{
     height: 20%;
-    border: solid black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 .clients-msg{
-    border: solid red;
     width: 500px;
     text-align: right;
     margin-right: 25px;
 }
 .body7-top-banner{
-    border: solid green;
     width: 250px;
 }
-.clients-banner{
-    border: solid blue;
-}
+
 
 .body7-body{
     height: 80%;
-    border: solid yellowgreen;
     margin: 5px;
     margin-left: 10%;
     margin-right: 10%;
@@ -607,7 +621,6 @@ nav  ul li:hover a{
 .clients{
     height: 400px;
     width: 350px;
-    border: solid orangered;   
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 10px;
@@ -645,7 +658,6 @@ nav  ul li:hover a{
 
 /* start of styling video */
 .video-layout{
-    border: solid orange;
     background-color: green;
     margin-top: 15px;
 }
@@ -673,33 +685,27 @@ nav  ul li:hover a{
 /* start styling for body 8 */
 
 .body8-content{
-    border: solid red;
     height: 100%;
     margin-top: 15px;
 }
 .body8-top{
-    border: solid blue;
     height: 125px;
     display: flex;
     flex-wrap: wrap ;
     justify-content: center;
 }
 .body8-top-msg{
-    border: solid black;
     width: 500px;
     text-align: right;
 }
 .body8-banner{
-    border:solid yellowgreen ;
     width: 250px;
 }
 .body8-banner1{
-    border: solid blue;
     color: green;
 }
 .volunteer-section{
     
-    border: solid green;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -710,12 +716,15 @@ nav  ul li:hover a{
     margin-bottom: 10px;
     height: 450px;
     width: 300px;
-    border: solid black;
 }
 .volunteer-image{
     height: 65%;
     width: 100%;
-    border: solid brown;
+}
+
+.volunteer-image img{
+    height: 100%;
+    width: 100%;
 }
 .volunteer-name{
     margin-top: 15px;
@@ -729,27 +738,23 @@ nav  ul li:hover a{
 .social-media{
     margin-top: 18px;
     height: 7% ;
-    border: solid chocolate;
     display: flex;
     justify-content: space-evenly;
 }
 .facebook{
     height: 100%;
-    border: solid green;
 }
 .facebook img{
     height: 100%;
 }
 .twitter{
     height: 100%;
-    border: solid blue;
 }
 .twitter img{
     height: 100%;
 }
 .wifi{
     height: 100%;
-    border: solid red;
 }
 .wifi img{
     height: 100%;
@@ -765,18 +770,16 @@ nav  ul li:hover a{
     
 }
 .body9-content{
-    border: solid red;
     justify-content: center;
     
 }
 .body9-head{
     
     
-    border: solid whitesmoke;
 }
 .body9-top{
+    margin-top: 15px;
     width: 70%;
-    border: solid green;
     /* margin-top: 50px; */
     /* margin-left: 90px; */
     display: flex;
@@ -785,17 +788,15 @@ nav  ul li:hover a{
     justify-content: center;
 }
 .body9-banner{
-    border: solid blue;
+    margin-top: 20px;
     margin-right: 20px;
 }
 .body9-banner1{
-    border: solid green;
     color: limegreen;
     font-size: 20px;
     text-align: center;
 }
 .body9-banner2{
-    border: solid black;
     color: white;
     font-size: 20px;
     text-align: center;
@@ -803,13 +804,11 @@ nav  ul li:hover a{
 .body9-top-msg{
     width: 500px;
     margin-top: 15px;
-    border: solid crimson;
     color: whitesmoke;
     text-align: center;
 }
 .blog-section{
     
-    border: solid blue;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -820,47 +819,41 @@ nav  ul li:hover a{
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 10px;
-    border: solid white;
+    margin-bottom: 15px;
     background-color: white;
     
 }
 .blog-image{
     height:50%;
-    border: solid turquoise;
     margin: 5px;
 }
 .blog-image img{
     height: 100%;
+    width: 100%;
 }
 .blog-type{
-    border: solid yellow;
     text-align: center;
     margin: 5px;
 }
 .blog-title{
-    border: solid black;
     text-align: center;
     color: green;
     margin: 5px;
 }
 .blog-text{
-    border: solid purple;
     text-align: center;
     margin: 5px;
     margin-top: 10px;
 }
 .date-tags{
-    border: solid black;
     display: flex;
     justify-content: space-between;
     margin: 5px;
 }
 .date{
-    border: solid red;
 
 }
 .tags{
-    border: solid gold;
 }
 
 /* end of styling body9 */
@@ -868,37 +861,33 @@ nav  ul li:hover a{
 /* start of tyling body10 */
 
 .body10-content{
-    border: solid black;
     
     margin-top: 30px;   
 }
 .body10-top{
-    border: solid whitesmoke;  
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 .body-top-msg{
-    border: solid black;
 }
 .body10-banner{
-    border: solid rgb(13, 102, 72);
+    
 }
 .banner1{
-    border: solid brown;
+    font-size: 20px;
 }
 .banner2{
-    border: solid blue;
+    font-size: 20px;
+    color: green;
 }
 .body10-body{
-    border: solid red;
     width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .fill-form{
-    border: solid green;
     width: 500px;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -910,9 +899,10 @@ nav  ul li:hover a{
     height: 45px;
     margin-top: 5px;
     margin-bottom: 15px;
-    background-color: rgb(194, 193, 193);
+    background-color: rgba(194, 193, 193);
     
     border: none;
+    border-bottom: solid black;
 }
 #message{
     height: 175px;
@@ -928,14 +918,12 @@ nav  ul li:hover a{
     height: 120px;
 }
 .contact-details{
-    border: solid blue;
     height: 500px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
 .contact-item{
-    border: solid black;
     margin-bottom: 25px;
 
     height: 150px;
@@ -946,7 +934,6 @@ nav  ul li:hover a{
 .contact-image{
     height: 40%;
     
-    border: solid red;
     margin: 40px 30px 5px;
     
 }
@@ -955,8 +942,7 @@ nav  ul li:hover a{
     width: 100%;
 }
 .contact-means{
-    border: solid green;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 5px;
     margin-left: 25px;
     width: 300px;
@@ -964,13 +950,11 @@ nav  ul li:hover a{
 }
 
 .means-title{
-    border: solid black;
     font-size: 20px;
     color: green;
 }
 
 .means-detail{
-    border: solid red;
     margin-top: 30px;
 }
 
@@ -998,16 +982,13 @@ footer{
    
 }
 .footer-layout{
-    border: red solid;
     height: 100%;
 }
 .copyright{
     padding: 20px;
-    border: solid black;
 }
 .footer-media{
     height: 50px;
-    border: solid orange;
     width: 500px;
     display: flex;
     justify-content: center;
